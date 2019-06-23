@@ -1,0 +1,14 @@
+<!--home/home.wxml-->
+<text class='t1'>hello word</text>
+<text class='t1'>年龄:{{age}}</text>
+<text class='iconfont iconchenggongbiaoqing'></text>
+<icon info="wechat" type='success' size='70'></icon>
+<text class='t1'>个人信息如下:</text>
+<text style='display:block' wx:for="{{student}}">{{item.id}}-{{item.name}}-{{item.sex}}-{{item.school}}</text>
+<view>
+<input type='text' bindinput='bindipt' focus='false' placeholder='这是表单的placeholder属性' />
+</view>
+
+<view style='margin-top:50px'>以下是radio-group-------</view>
+
+

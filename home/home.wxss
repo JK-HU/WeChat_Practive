@@ -1,0 +1,11 @@
+/* home/home.wxss */
+@import "iconfont.wxss";
+.t1{
+  display: block;
+  color: red;
+  width: 80%;
+  height: 45px;
+  margin: 30px auto;
+  text-align-last: center;
+  font-size: 32px;
+}
